@@ -1,0 +1,48 @@
+spring:
+   config:
+      import:
+         - classpath:application-mysql.yml
+         - classpath:application-redis.yml
+
+myapp:
+   username: jsf
+   email: jsf@gmail.com
+   age: 22
+
+app:
+   name: jsff
+   age: 22
+   email: jsfjsf@gmail.com
+
+app2:
+   name: jsf2
+   age: 22
+   email: jsfjsf2@gmail.com
+   address:
+      city: cd
+      street: pd
+      zipcode: 123
+
+names:
+   - jsf
+   - jsf2
+   - jsf3
+
+products:
+   - name: apple
+     price: 10
+   - name: banana
+     price: 20
+
+vips:
+   vip:
+      name: jsf
+      age: 22
+   vip2:
+      name: jsf2
+      age: 22
+
+address:
+   city: cd
+   street: pd
+   zipcode: 123456
